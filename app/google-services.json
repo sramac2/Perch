@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "336245227792",
+    "firebase_url": "https://perch-fded8.firebaseio.com",
+    "project_id": "perch-fded8",
+    "storage_bucket": "perch-fded8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336245227792:android:f4c50a4ccabeef26",
+        "android_client_info": {
+          "package_name": "com.example.android.perch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336245227792-euhq6vmpm45jn80rjqbjcj4pksvbc3ae.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.perch",
+            "certificate_hash": "5e7726f8d9541e73d495787b66dc074977f2a6fd"
+          }
+        },
+        {
+          "client_id": "336245227792-pquklpkuoojkuf39ucrbrdqsm0ipul5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnlr_bu5NE3I3EPJr3vFrPgZgWU2W5VaU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336245227792-pquklpkuoojkuf39ucrbrdqsm0ipul5b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
