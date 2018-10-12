@@ -4,21 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignUp">
+    tools:context=".SignUpActivity">
 
     <EditText
         android:id="@+id/NameBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
         android:ems="10"
         android:hint="Name"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.284" />
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="130dp" />
 
     <EditText
         android:id="@+id/EmailBox"
@@ -43,12 +39,12 @@
         app:layout_constraintTop_toBottomOf="@id/EmailBox" />
 
     <EditText
-        android:id="@+id/AddressBox"
+        android:id="@+id/PasswordBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:ems="10"
-        android:hint="Address"
+        android:hint="Password"
         android:inputType="textPostalAddress"
         app:layout_constraintStart_toStartOf="@id/NameBox"
         app:layout_constraintTop_toBottomOf="@id/PhoneBox" />
@@ -57,11 +53,11 @@
         android:id="@+id/SignUpButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="340dp"
         android:text="Sign Up"
-        app:layout_constraintStart_toStartOf="@id/AddressBox"
-        app:layout_constraintTop_toBottomOf="@id/AddressBox" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/Title"
@@ -78,10 +74,10 @@
         android:id="@+id/FacebookSignUp"
         android:layout_width="128dp"
         android:layout_height="35dp"
-        android:layout_marginStart="48dp"
+        android:layout_marginStart="128dp"
         android:layout_marginTop="28dp"
-        android:text="Button"
-        app:layout_constraintStart_toStartOf="@id/AddressBox"
+        android:text="Facebook Login"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/SignUpButton" />
 
 </android.support.constraint.ConstraintLayout>
