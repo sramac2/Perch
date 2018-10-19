@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Perch</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>>
+    <string name="password">Password</string>
+    <string name="fblogin">Log in with Facebook</string>
+    <string name="googlelogin">Log in with Google</string>
+    <string name="keepsignedin">Keep me signed in</string>
+    <string name="Perchtextview">PERCH</string>
+
 </resources>
