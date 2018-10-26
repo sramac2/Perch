@@ -14,6 +14,8 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class SignUpActivity extends AppCompatActivity {
 
@@ -69,6 +71,12 @@ public class SignUpActivity extends AppCompatActivity {
                         }
                     }
                 });
+
+        // TODO: add userID and ownerID
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference myRef = database.getReference("Users");
+        Person user = new Person("user123", sName, sEmail, sPhone, "owner420");
+        myRef.setValue(user);
     }
 
     @Override
