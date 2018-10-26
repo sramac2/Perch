@@ -1,3 +1,4 @@
+// Created by Rafal Ryczek
 package com.example.android.perch;
 
 import android.support.annotation.NonNull;
@@ -57,14 +58,12 @@ public class SignUpActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
                             // Sign in success, update UI with the signed-in user's information
-                            // Log.d(TAG, "createUserWithEmail:success");
                             FirebaseUser user = mAuth.getCurrentUser();
                             Toast.makeText(SignUpActivity.this, task.getResult().toString(),
                                     Toast.LENGTH_SHORT).show();
 
                         } else {
                             // If sign in fails, display a message to the user.
-                            //   Log.w(TAG, "createUserWithEmail:failure", task.getException());
                             Toast.makeText(SignUpActivity.this, task.getException().getMessage(),
                                     Toast.LENGTH_SHORT).show();
 
