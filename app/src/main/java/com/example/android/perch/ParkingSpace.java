@@ -1,7 +1,10 @@
 // Created by Rafal Ryczek
 package com.example.android.perch;
 
+import com.google.android.gms.maps.model.LatLng;
+
 public class ParkingSpace {
+
     private String id;
     private String ownerName;
     private String address;
@@ -18,6 +21,7 @@ public class ParkingSpace {
     private double dailyCost;
     private double weeklyCost;
     private double monthlyCost;
+    private LatLng location;
     private int age;
 
     public ParkingSpace(String id, String ownerName, String address, String email, String phone,

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/nameText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="3dp"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/ageText"
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="3dp"
+                android:hint="Age"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/addressText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="3dp"
+                android:ems="10"
+                android:hint="Address"
+                android:inputType="textPostalAddress" />
+
+            <EditText
+                android:id="@+id/emailText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="3dp"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                 />
+
+            <EditText
+                android:id="@+id/phoneText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="3dp"
+                android:ems="10"
+                android:hint="Phone"
+                android:inputType="phone" />
+            <CheckBox
+                android:id="@+id/hourly_price_boolean"
+                android:layout_width="match_parent"
+                android:layout_marginStart="30dp"
+                android:textSize="20dp"
+                android:layout_marginEnd="30dp"
+                android:layout_height="wrap_content"
+                android:text="Hourly" />
+
+            <EditText
+                android:id="@+id/hourly_price"
+                android:layout_width="match_parent"
+                android:hint="Monthly Price"
+                android:visibility="gone"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="3dp"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:id="@+id/daily_price_boolean"
+                android:layout_width="match_parent"
+                android:layout_marginStart="30dp"
+                android:textSize="20dp"
+                android:layout_marginEnd="30dp"
+                android:layout_height="wrap_content"
+                android:text="Daily" />
+            <EditText
+                android:id="@+id/daily_price"
+                android:layout_width="match_parent"
+                android:hint="Daily Price"
+                android:visibility="gone"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="3dp"
+                android:layout_height="wrap_content" />
+            <CheckBox
+                android:id="@+id/weekly_price_boolean"
+                android:layout_width="match_parent"
+                android:layout_marginStart="30dp"
+                android:textSize="20dp"
+                android:layout_marginEnd="30dp"
+                android:layout_height="wrap_content"
+                android:text="Weekly" />
+
+            <EditText
+                android:id="@+id/weekly_price"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:hint="Weekly Price"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="3dp"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:id="@+id/monthly_price_boolean"
+                android:layout_width="match_parent"
+                android:layout_marginStart="30dp"
+                android:textSize="20dp"
+                android:layout_marginEnd="30dp"
+                android:layout_height="wrap_content"
+                android:text="Monthly" />
+
+            <EditText
+                android:id="@+id/monthly_price"
+                android:layout_width="match_parent"
+                android:hint="Monthly Price"
+                android:visibility="gone"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="3dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
